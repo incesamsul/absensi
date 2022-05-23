@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.header {
+    border-bottom: 2px solid black;
+}
+
+.left {
+    height: 100px;
+    height: 100px;
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+.right {
+    text-align: center;
+    height: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right h2 {
+    margin: 5px;
+}
+
+.right p {
+    margin: 5px;
+}
+
+.content {
+    height: 100px;
+}
+
+.content table {
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.content table tr:nth-child(odd) td#ttd {
+    text-align: right;
+}
+
+.content table tr td {
+    vertical-align: middle !important;
+}
